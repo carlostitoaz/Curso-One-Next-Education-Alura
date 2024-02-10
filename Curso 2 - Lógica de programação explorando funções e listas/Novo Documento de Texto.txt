@@ -1,0 +1,28 @@
+listaDeNumerosSorteados = [];
+
+if(listaDeNumerosSorteados.includes(numeroEscolhido))
+
+O //includes// verifica se um valor esta contido em uma lista
+
+=============================================================
+
+listaDeNumerosSorteados.push(12)
+
+O //push// insere um valor na lista.
+
+=============================================================
+listaDeNumerosSorteados = [1,3,4,6,8];
+
+listaDeNumerosSorteados.pop();
+
+Remove o ultimo elemento
+
+=============================================================
+
+Para limpar uma lista basta colocar o []
+
+Exemplo: 
+
+listaDeNumerosSorteados = [1,2,5];
+
+Limpando a lista: listaDeNumerosSorteados = [];
