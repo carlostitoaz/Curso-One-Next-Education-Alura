@@ -1,0 +1,95 @@
+/* */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    /* height: 100vh; */ /* Deixa o conteiner no tamanho da tela */
+    box-sizing: border-box; /* evita que o conteudo saia do conteiner */
+    background-color:black;
+    color: #F6F6F6;
+}
+
+.cabecalho{
+    
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao{
+    margin: 8% 10%;
+    display: flex; /* Faz com que o conteudo fique alinhado na mesma linha */
+    align-items: center; /* Faz o conteudo do conteiner ficar centralizado dentro do conteiner */
+    justify-content: space-between; /* Faz o conteudo ficar um em cada lado (um no lado esquerdo e o outro na direita)*/
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column; /* Faz os intes ficarem alinhados na vertical e de cima para baixo*/
+    gap: 40px; /*Coloca espaços apenas entre os itens*/
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links_subtitulo{
+    font-family: 'Krona one', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__links{
+    display: flex; /*Indica que sera usado o flexbox, e por padrão os elementos ficam na mesma linha*/
+    justify-content: space-between; /* Faz o conteudo ficar um em cada lado (um no lado esquerdo e o outro na direita)*/
+    flex-direction: column; /* Faz os intes ficarem alinhados na vertical e de cima para baixo*/
+    align-items: center; /* Faz os itens ficarem alinhados no centro*/
+    gap: 32px; /* Coloca espaçamento apenas entre os itens */
+}
+
+.apresentacao__links__link{
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+

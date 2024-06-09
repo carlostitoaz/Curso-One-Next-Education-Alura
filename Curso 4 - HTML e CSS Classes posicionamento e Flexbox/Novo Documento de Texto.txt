@@ -1,0 +1,31 @@
+box-sizing: border-box
+
+Evita que os elementos internos saiam do conteudo pai.
+
+
+=====================================
+
+.apresentacao{
+    display: flex; /* Faz com que o conteudo fique alinhado na mesma linha */
+}
+
+Aqui estamos usando flexbox, o //display: flex// por padrão deixa o conteudo alinhado na mesma linha.
+
+
+===================================
+
+.apresentacao{
+    display: flex; /* Faz com que o conteudo fique alinhado na mesma linha */
+    align-items: center; /* Faz o conteudo do conteiner ficar centralizado dentro do conteiner */
+}
+
+==================================
+
+GUIA PARA FLEXBOX
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+
+
